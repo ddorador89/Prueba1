@@ -1,0 +1,45 @@
+url:
+  mainurl: https://wwwf.br.intrallianz.com
+---
+
+spring:
+  profiles: IE, GridIE
+browser:
+  usingbrowser: IE
+---
+
+spring:
+  profiles: Chrome, ChromeHeadless, GridChrome
+browser:
+  usingbrowser: Chrome
+---
+
+spring:
+  profiles: Firefox, GridFirefox
+browser:
+  usingbrowser: Firefox
+---
+
+spring:
+  profiles: Prod
+url:
+  mainurl: https://www.es.intrallianz.com
+---
+
+spring:
+  profiles: Full
+url:
+  mainurl: https://wwwfdt.es.intrallianz.com
+---
+
+spring:
+  profiles: Int
+url:
+  mainurl: https://wwwi.es.intrallianz.com
+---
+
+spring:
+  profiles: Dev
+url:
+  mainurl: https://wwwd.es.intrallianz.com
+
